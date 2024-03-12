@@ -15,8 +15,6 @@ let tasks = [];
 let taskForm = document.getElementById("taskForm")
 console.log(taskForm)
 
-//Event Listener
-taskForm.addEventListener('submit', handleSubmit)
 
 let taskTable = document.getElementById("taskTable")
 console.log(taskTable)
@@ -66,3 +64,7 @@ function init() {
     tasks = []; // Reset the tasks array
     render(); // Call the render function
 }
+// Event listener for form submission
+taskForm.addEventListener('submit', handleSubmission);
+// Call the init function to set up the initial state of the app
+init();
