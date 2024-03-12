@@ -10,9 +10,9 @@
 <body>
     <div class="container">
         <h1>Task Tracker</h1>
-        <form id="taskForm">
+        <form>
             <!-- Task form inputs go here -->
-            <form>
+            <form id="taskForm">
                 <label for="taskName">Task Name:</label>
                 <input type="text" id="taskName">
                 <br/>
@@ -23,11 +23,23 @@
 
                 <label for="taskDeadline">Task Deadline:</label>
                 <input type="text" id="taskDeadline">
-            </form>
+            </form id="taskForm">
             <button type="submit">Add Task</button>
         </form>
         <table id="taskTable">
             <!-- Task table content here -->
+            <tr>
+                <th>sample</th>
+                <th>1</th>
+            </tr>
+            <tr>
+                <td>sample</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>sample</td>
+                <td>3</td>
+            </tr>
         </table>
     </div>
     <script src="script.js"></script>
