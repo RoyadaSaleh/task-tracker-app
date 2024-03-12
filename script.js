@@ -10,5 +10,12 @@ let tasks = [];
 
 // script.js
 // Section 3: Cached Element References
-const taskForm = null;
-const taskTable = null;
+
+
+let taskForm = document.getElementById("taskForm")
+console.log(taskForm)
+
+taskForm.addEventListener('submit', handleSubmit)
+
+let taskTable = document.getElementById("taskTable")
+console.log(taskTable)
