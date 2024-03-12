@@ -16,7 +16,7 @@ body {
 form {
     margin-bottom: 20px;
 }
-#taskTable {
+#taskTable td,tr,th {
     border: 1px black;
 }
 #taskForm {
